@@ -67,7 +67,8 @@ function winManager(){
         return;
     }
 
-    for(var i = 0; i < 2; i++){
+    for(var i = 0; i < 3; i++){
+        console.log(col1[i], col2[i], col3[i]);
         if(col1[i] == none || col2[i] == none || col3[i] == none){
             return;
         }
