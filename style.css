@@ -1,0 +1,50 @@
+th {
+    border: 10px solid #ffffff;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+td{
+    border: 10px solid #ffffff;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    background-color: #151515;
+}
+
+#turn{
+    display: block;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#game{
+    display: flex;
+    justify-content: center;
+}
+
+#restart{
+    display: block;
+    background: none;
+    color: white;
+    font-size: 2em;
+    border-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#winText{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
